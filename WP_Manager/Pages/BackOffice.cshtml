@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Back Office";
+}
+
+<h1> Back Office </h1>
+
+@* <table class="w-100">
+    <thead>
+        <tr>
+            <td > Nome </td>
+            <td> Email </td>
+            <td> IsAdmin </td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in ViewBag.Users)
+        {
+            <tr>
+                <td> @user.Name </td>
+                <td> @user.Email </td>
+                <td>
+                    @if (!user.IsAdmin)
+                    {
+                        <ion-icon name="close-outline"></ion-icon>
+                    }
+                    else
+                    {
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@
